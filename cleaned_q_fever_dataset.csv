@@ -1,0 +1,56 @@
+region,species,category,sex,age_group,breed,location,number_examined,number_positive,%_positive,diagnostic_method,or,95%_ci,p-value,study_source,prevalence_percent
+Kaduna,Sheep,Sex,Male,,,,141.0,9.0,6.4%,ELISA,,,0.379,Kaduna Study,6.382978723404255
+Kaduna,Sheep,Sex,Female,,,,259.0,23.0,8.9%,ELISA,,,–,Kaduna Study,8.880308880308881
+Kaduna,Sheep,Sex,Total,,,,400.0,32.0,8.0%,ELISA,,,–,Kaduna Study,8.0
+Kaduna,Sheep,Age,,< 2 years,,,164.0,7.0,4.3%,ELISA,,,0.022,Kaduna Study,4.2682926829268295
+Kaduna,Sheep,Age,,> 2 years,,,236.0,25.0,10.6%,ELISA,,,–,Kaduna Study,10.59322033898305
+Kaduna,Sheep,Age,,Total,,,400.0,32.0,8.0%,ELISA,,,–,Kaduna Study,8.0
+Kaduna,Sheep,Breed,,,Balami,,146.0,6.0,4.1%,ELISA,,,0.059,Kaduna Study,4.10958904109589
+Kaduna,Sheep,Breed,,,Yankasa,,198.0,22.0,11.1%,ELISA,,,–,Kaduna Study,11.11111111111111
+Kaduna,Sheep,Breed,,,Ouda,,56.0,4.0,7.1%,ELISA,,,–,Kaduna Study,7.142857142857142
+Kaduna,Sheep,Breed,,,Total,,400.0,32.0,8.0%,ELISA,,,–,Kaduna Study,8.0
+Borno,Mixed,Sex,Male,,,,140.0,9.0,6.4%,ELISA,0.439,0.204–0.947,0.032,Borno Study,6.428571428571428
+Borno,Mixed,Sex,Female,,,,244.0,33.0,13.5%,ELISA,1,,,Borno Study,13.524590163934427
+Borno,Mixed,Sex,Total,,,,384.0,42.0,10.9%,ELISA,,,,Borno Study,10.9375
+Borno,Mixed,Sex,Male,,,,142.0,10.0,7.0%,ELISA,0.434,0.208–0.903,0.022,Borno Study,7.042253521126761
+Borno,Mixed,Sex,Female,,,,242.0,36.0,14.9%,ELISA,1,,,Borno Study,14.87603305785124
+Borno,Mixed,Sex,Total,,,,384.0,46.0,12.0%,ELISA,,,,Borno Study,11.979166666666668
+Borno,Mixed,Sex,Total,,,,768.0,88.0,11.5%,ELISA,0.924,0.578–1.408,0.734,Borno Study,11.458333333333332
+Borno,Mixed,Age,,≤ 2 Years,,,95.0,7.0,7.4%,ELISA,0.577,0.247–1.346,0.199,Borno Study,7.368421052631578
+Borno,Mixed,Age,,> 2 Years,,,289.0,35.0,12.1%,ELISA,1,,,Borno Study,12.110726643598616
+Borno,Mixed,Age,,≤ 2 Years,,,99.0,9.0,9.1%,ELISA,0.67,0.311–1.444,0.304,Borno Study,9.090909090909092
+Borno,Mixed,Age,,> 2 Years,,,285.0,37.0,13.0%,ELISA,1,,,Borno Study,12.982456140350877
+Borno,Mixed,Breed,,,Balami,,160.0,19.0,11.9%,ELISA,0.787,0.315–1.964,0.861,Borno Study,11.875
+Borno,Mixed,Breed,,,Yankasa,,151.0,16.0,10.6%,ELISA,,0.351–2.281,,Borno Study,10.596026490066226
+Borno,Mixed,Breed,,,Uda,,73.0,7.0,9.6%,ELISA,1,,,Borno Study,9.58904109589041
+Borno,Mixed,Breed,,,Sahel,,172.0,23.0,13.4%,ELISA,0.736,0.264–2.050,0.742,Borno Study,13.372093023255813
+Borno,Mixed,Breed,,,Red Sokoto,,163.0,18.0,11.0%,ELISA,,0.321–2.607,,Borno Study,11.042944785276074
+Borno,Mixed,Breed,,,WAD,,49.0,5.0,10.2%,ELISA,1,,,Borno Study,10.204081632653061
+Taraba,Mixed,Sex,Male,,,,50.0,3.0,6.0%,ELISA,,,0.2,Taraba Study,6.0
+Taraba,Mixed,Sex,Female,,,,50.0,7.0,14.0%,ELISA,,,,Taraba Study,14.000000000000002
+Taraba,Mixed,Sex,Male,,,,50.0,4.0,8.0%,ELISA,,,0.73,Taraba Study,8.0
+Taraba,Mixed,Sex,Female,,,,50.0,5.0,10.0%,ELISA,,,,Taraba Study,10.0
+Taraba,Mixed,Sex,Male,,,,50.0,4.0,8.0%,ELISA,,,0.16,Taraba Study,8.0
+Taraba,Mixed,Sex,Female,,,,50.0,9.0,18.0%,ELISA,,,,Taraba Study,18.0
+Taraba,Mixed,Sex,Total,,,,300.0,32.0,10.7%,ELISA,,,,Taraba Study,10.666666666666668
+Taraba,Mixed,Age,,> 2,,,50.0,8.0,16.0%,ELISA,,,0.05,Taraba Study,16.0
+Taraba,Mixed,Age,,≤ 2,,,50.0,2.0,4.0%,ELISA,,,,Taraba Study,4.0
+Taraba,Mixed,Age,,> 2,,,50.0,7.0,14.0%,ELISA,,,0.09,Taraba Study,14.000000000000002
+Taraba,Mixed,Age,,≤ 2,,,50.0,2.0,4.0%,ELISA,,,,Taraba Study,4.0
+Taraba,Mixed,Age,,> 3,,,50.0,8.0,16.0%,ELISA,,,0.4,Taraba Study,16.0
+Taraba,Mixed,Age,,≤ 3,,,50.0,5.0,10.0%,ELISA,,,,Taraba Study,10.0
+Taraba,Mixed,Age,,Total,,,300.0,32.0,10.7%,ELISA,,,,Taraba Study,10.666666666666668
+Yobe,Sheep,Sex,Male,,,,105.0,10.0,9.5%,ELISA,0.745,0.358–1.550,0.43,Yobe Study,9.523809523809524
+Yobe,Sheep,Sex,Female,,,,315.0,39.0,12.4%,ELISA,1*,,,Yobe Study,12.380952380952381
+Yobe,Sheep,Sex,Total,,,,420.0,49.0,11.7%,ELISA,,,,Yobe Study,11.666666666666666
+Yobe,Sheep,Age,,≤ 2 years,,,82.0,8.0,9.8%,ELISA,0.783,0.352–1.741,0.548,Yobe Study,9.75609756097561
+Yobe,Sheep,Age,,> 2 years,,,338.0,41.0,12.1%,ELISA,1*,,,Yobe Study,12.1301775147929
+Yobe,Sheep,Age,,Total,,,420.0,49.0,11.7%,ELISA,,,,Yobe Study,11.666666666666666
+Yobe,Sheep,Breed,,,Balami,,160.0,19.0,11.7%,ELISA,0.813,0.340–1.947,0.85,Yobe Study,11.875
+Yobe,Sheep,Breed,,,Yankasa,,179.0,22.0,12.3%,ELISA,0.782,0.332–1.840,,Yobe Study,12.290502793296088
+Yobe,Sheep,Breed,,,Uda,,81.0,8.0,9.9%,ELISA,1*,,,Yobe Study,9.876543209876543
+Yobe,Sheep,Breed,,,Total,,420.0,49.0,11.7%,ELISA,,,,Yobe Study,11.666666666666666
+Yobe,Sheep,Location,,,,Damaturu,140.0,19.0,13.6%,ELISA,0.822,0.404–1.572,0.645,Yobe Study,13.571428571428571
+Yobe,Sheep,Location,,,,Gashua,140.0,14.0,10.0%,ELISA,1.161,0.544–2.480,,Yobe Study,10.0
+Yobe,Sheep,Location,,,,Potiskum,140.0,16.0,11.4%,ELISA,1*,,,Yobe Study,11.428571428571429
+Yobe,Sheep,Location,,,,Total,420.0,49.0,11.7%,ELISA,,,,Yobe Study,11.666666666666666
