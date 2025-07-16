@@ -77,8 +77,9 @@ if page == "🏠 Welcome":
         - Simulate disease dynamics with adjustable parameters
         - Explore intervention impacts and download results
 
-        Click **Next →** on the sidebar to begin!\...
-
+        Click **Next →** on the sidebar to begin!
+    """)
+    
 # Upload Page
 elif page == "📁 Upload Data":
     st.header("📁 Upload Your Dataset")
