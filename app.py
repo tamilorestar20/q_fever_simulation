@@ -4,7 +4,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
+import plotly.io as pio
 import io
+
 
 st.set_page_config(
     page_title="Q Fever Simulation",
@@ -179,14 +181,15 @@ elif page == "📊 Simulation":
         st.plotly_chart(fig_map, use_container_width=True)
 
         # Save map chart as PNG for download
-        fig_map.write_image("/tmp/prevalence_chart.png", format="png")
-        with open("/tmp/prevalence_chart.png", "rb") as img_file:
-            st.download_button(
-                label="📥 Download Regional Prevalence Chart",
-                data=img_file,
-                file_name="regional_prevalence_chart.png",
-                mime="image/png"
-            )
+        fig_map_bytes = pio.to_image(fig_map, format="png")
+        buf_map = io.BytesIO(fig_map_bytes)
+        buf_map.seek(0)
+        st.download_button(
+            label="📥 Download Regional Prevalence Chart",
+            data=buf_map.getvalue(),
+            file_name="regional_prevalence_chart.png",
+            mime="image/png"
+        )
 
     else:
         st.warning("Please upload a dataset first from the 📁 Upload Data section.")
